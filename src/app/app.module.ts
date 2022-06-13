@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CardComponent } from './../card/card.component';
 import { CardListComponent } from './../card-list/card-list.component';
+import { CardNewComponent } from './../card-new/card-new.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -14,6 +15,7 @@ import { CardListComponent } from './../card-list/card-list.component';
     HelloComponent,
     CardComponent,
     CardListComponent,
+    CardNewComponent,
   ],
   bootstrap: [AppComponent],
 })
