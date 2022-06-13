@@ -1,13 +1,10 @@
 <hello name="{{ name }}"></hello>
-<p>Start editing to see some magic happen :)</p>
+
 <p>
-  change!<b> bold</b><br />
-
-  <app-card-new></app-card-new><br />
-  x
+  <app-card-new (onCardAdd)="addCard($event)"></app-card-new><br />
+  Existing ideas:
   <br />
-
   <app-card-list [cards]="cards"></app-card-list>
   <br />
-  y
+  --end--
 </p>
